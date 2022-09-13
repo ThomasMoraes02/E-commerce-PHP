@@ -15,6 +15,11 @@ class Produto
         $this->valor = $valor;
         $this->quantidade = $quantidade;
     }
+        
+    public function getNome()
+    {
+        return $this->nome;
+    }
 
     public function getValor()
     {
